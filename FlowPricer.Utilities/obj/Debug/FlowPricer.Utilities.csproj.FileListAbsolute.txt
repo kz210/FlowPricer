@@ -1,0 +1,5 @@
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer.Utilities\bin\Debug\FlowPricer.Utilities.dll
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer.Utilities\bin\Debug\FlowPricer.Utilities.pdb
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer.Utilities\obj\Debug\FlowPricer.Utilities.csprojAssemblyReference.cache
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer.Utilities\obj\Debug\FlowPricer.Utilities.dll
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer.Utilities\obj\Debug\FlowPricer.Utilities.pdb

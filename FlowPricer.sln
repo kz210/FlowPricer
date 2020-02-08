@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer", "FlowPricer\FlowPricer.csproj", "{A410FC07-7C8D-4C70-8C52-DE03E571D232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer.Utilities", "FlowPricer.Utilities\FlowPricer.Utilities.csproj", "{302A3225-8549-4954-8F7F-39F0495FF5EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A410FC07-7C8D-4C70-8C52-DE03E571D232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A410FC07-7C8D-4C70-8C52-DE03E571D232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A410FC07-7C8D-4C70-8C52-DE03E571D232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A410FC07-7C8D-4C70-8C52-DE03E571D232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DB24184-C938-4F4E-AFBF-316CD8B749BB}
+	EndGlobalSection
+EndGlobal
