@@ -21,6 +21,8 @@ namespace FlowPricer
             Worksheet currentSheet = Globals.ThisAddIn.GetActiveWorksheet();
             currentSheet.Range["A1"].Value = "Hello World";
             currentSheet.Columns.AutoFit();
+            double cdsValue = currentSheet.get_Range("B5", "B5").Value2;
+            currentSheet.Range["A1"].Value = 2 * cdsValue;
         }
 
         private void button1_Click_1(object sender, RibbonControlEventArgs e)
