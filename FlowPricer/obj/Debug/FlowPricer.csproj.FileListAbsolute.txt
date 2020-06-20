@@ -10,3 +10,5 @@ D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\obj\Debug\FlowPricer.cspro
 D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\obj\Debug\FlowPricer.csproj.CopyComplete
 D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\obj\Debug\FlowPricer.dll
 D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\obj\Debug\FlowPricer.pdb
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\bin\Debug\FlowPricer.Utilities.dll
+D:\Codes\Visual Studio Projects\FlowPricer\FlowPricer\bin\Debug\FlowPricer.Utilities.pdb

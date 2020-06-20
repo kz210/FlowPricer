@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer", "FlowPricer\Fl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer.Utilities", "FlowPricer.Utilities\FlowPricer.Utilities.csproj", "{302A3225-8549-4954-8F7F-39F0495FF5EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer.Test", "FlowPricer.Test\FlowPricer.Test.csproj", "{ACBBB4A1-A30F-49F6-BC04-F5728F6A9716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowPricer.MSTest", "FlowPricer.MSTest\FlowPricer.MSTest.csproj", "{3E662404-C2F7-4CF6-A2CA-45A417AEFB45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302A3225-8549-4954-8F7F-39F0495FF5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBBB4A1-A30F-49F6-BC04-F5728F6A9716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBBB4A1-A30F-49F6-BC04-F5728F6A9716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBBB4A1-A30F-49F6-BC04-F5728F6A9716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBBB4A1-A30F-49F6-BC04-F5728F6A9716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E662404-C2F7-4CF6-A2CA-45A417AEFB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E662404-C2F7-4CF6-A2CA-45A417AEFB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E662404-C2F7-4CF6-A2CA-45A417AEFB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E662404-C2F7-4CF6-A2CA-45A417AEFB45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

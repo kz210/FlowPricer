@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Office.Tools.Ribbon;
 using Microsoft.Office.Interop.Excel;
 using Excel = Microsoft.Office.Interop.Excel;
+using FlowPricer.Utilities;
 
 
 namespace FlowPricer
@@ -28,7 +29,12 @@ namespace FlowPricer
         private void button1_Click_1(object sender, RibbonControlEventArgs e)
         {
             Worksheet currentSheet = Globals.ThisAddIn.GetActiveWorksheet();
-            currentSheet.Range["A3"].Value = "100 %";
+            currentSheet.Range["A2"].Value = "100 %";
+            Range range = currentSheet.get_Range("A4", currentSheet.get_Range("A4").End[XlDirection.xlDown]);
+            double[] ead = range.ToNet1DimArray(x => (double) (x ?? 0d));
+            range = currentSheet.get_Range("B2", currentSheet.get_Range("C2").End[XlDirection.xlDown]);
+            double[,] SwapRatesCurve = range.ToNet2DimArray(x => (double)(x ?? 0d)); 
+
             currentSheet.Columns.AutoFit();
         }
     }
